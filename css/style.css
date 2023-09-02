@@ -17,15 +17,15 @@ header {
     font-family: 'Times New Roman', Georgia, Times, serif;
 } .nav {
     border-radius: 10px;
-    background: #ccc;
-    padding: 8px;
+    background: #bbb;
+    padding: 8px 7px 8px 7px;
     border: 1px;
     border-style: none;
     transition: 1s;
     text-decoration: none;
     color: black;
 } .nav:hover {
-    background: #999;
+    background: #cfa141;
 }
 
 body {
@@ -45,7 +45,7 @@ body {
 } .form {
     border: 2px groove #ccc;
     border-radius: 10px;
-    background: #c6c7c9;
+    background: #ccc;
     text-align: center;
     width: 70%; 
     height: 30px;
