@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box; 
 }
 
 header {
@@ -32,7 +33,7 @@ body {
     background-color: #cfa141;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 } #questionary {
-    margin: 5%;
+    margin: 6%;
     display: flex; 
     flex-wrap: wrap;
     justify-content: center;
@@ -51,7 +52,6 @@ body {
     height: 30px;
     margin: 10px 30px 10px 30px; 
     padding: 5px;
-    box-sizing: border-box; 
     transition: 0.5s;
     outline: none;
 } .form:focus {
@@ -64,7 +64,6 @@ body {
     padding: 5px;
     text-decoration: none;
     transition: 1.5s;
-    box-sizing: border-box;
 } #submit:hover {
     width: 85px;
     background: #cfa141;
@@ -85,4 +84,34 @@ body {
     position: fixed;
     bottom: 0px;
     right: 0px;
+}
+
+@media (max-width: 500px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    h3, .footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 65%;
+    } main {
+        flex: wrap;
+        flex-direction: column;
+    } .order:nth-child(2) {
+        order: -1;
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        height: 60px;
+    } .nav {
+        display: none;
+    } #logo {
+        width: 60px;
+    } #title {
+        font-size: 24px;
+    }
 }
