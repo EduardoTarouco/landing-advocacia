@@ -2,13 +2,6 @@
     padding: 0px;
     margin: 0px;
 }
-h1 {
-    font-size: 36px;
-}h2, h3{
-    font-size: 24px;
-}p {
-    font-size: 14px;
-}
 
 header {
     background-color: #F7F7F7;
@@ -24,7 +17,7 @@ header {
     font-family: 'Times New Roman', Georgia, Times, serif;
 } .nav {
     border-radius: 10px;
-    background: #a09ea1;
+    background: #ccc;
     padding: 8px;
     border: 1px;
     border-style: none;
@@ -32,41 +25,64 @@ header {
     text-decoration: none;
     color: black;
 } .nav:hover {
-    background: #c6c7c9;
+    background: #999;
 }
 
 body {
     background-color: #cfa141;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 } #questionary {
+    margin: 5%;
     display: flex; 
     flex-wrap: wrap;
+    justify-content: center;
     width: 350px; 
-    padding: 10px;
+    padding: 25px 10px 25px 10px;
     float: left;
     border: 1px; 
-    border-radius: 25px; 
+    border-radius: 15px; 
     background: #F7F7F7;
-    align-items: center;
 } .form {
-    border: 2px;
-    border-radius: 5px;
+    border: 2px groove #ccc;
+    border-radius: 10px;
     background: #c6c7c9;
+    text-align: center;
     width: 70%; 
     height: 30px;
     margin: 10px 30px 10px 30px; 
     padding: 5px;
     box-sizing: border-box; 
+    transition: 0.5s;
     outline: none;
-    -webkit-transition: 1s;
-    transition: 1s;
 } .form:focus {
     border: 2px solid #555;
 } #submit {
     border: 2px;
-    border-radius: 10px;
-    background: #c6c7c9;
+    border-radius: 5px;
+    background: #ccc;
     width: 20%; 
     padding: 5px;
     text-decoration: none;
+    transition: 1.5s;
+    box-sizing: border-box;
+} #submit:hover {
+    width: 85px;
+    background: #cfa141;
+} h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    text-decoration-line: underline;
+    margin: 125px 70px 0px 0px;
+    float: right;
+    width: 30%;
+} span {
+    font-family: "SoDo Sans Semibold", Verdana, Tahoma, sans-serif;
+    width: 30%;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0px 85px 60px 0px;
+} .footer {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
