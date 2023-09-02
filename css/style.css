@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    font-size: 36px;
+}h2, h3{
+    font-size: 24px;
+}p {
+    font-size: 14px;
+}
+
+header {
+    background-color: #F7F7F7;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+} #logo{
+    width: 90px;
+} #title {
+    font-size: 36px;
+    font-family: 'Times New Roman', Georgia, Times, serif;
+} .nav {
+    border-radius: 10px;
+    background: #a09ea1;
+    padding: 8px;
+    border: 1px;
+    border-style: none;
+    transition: 1s;
+    text-decoration: none;
+    color: black;
+} .nav:hover {
+    background: #c6c7c9;
+}
+
+body {
+    background-color: #cfa141;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} #questionary {
+    display: flex; 
+    flex-wrap: wrap;
+    width: 350px; 
+    padding: 10px;
+    float: left;
+    border: 1px; 
+    border-radius: 25px; 
+    background: #F7F7F7;
+    align-items: center;
+} .form {
+    border: 2px;
+    border-radius: 5px;
+    background: #c6c7c9;
+    width: 70%; 
+    height: 30px;
+    margin: 10px 30px 10px 30px; 
+    padding: 5px;
+    box-sizing: border-box; 
+    outline: none;
+    -webkit-transition: 1s;
+    transition: 1s;
+} .form:focus {
+    border: 2px solid #555;
+} #submit {
+    border: 2px;
+    border-radius: 10px;
+    background: #c6c7c9;
+    width: 20%; 
+    padding: 5px;
+    text-decoration: none;
+}
