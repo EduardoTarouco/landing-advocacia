@@ -22,7 +22,7 @@ header {
     padding: 8px 7px 8px 7px;
     border: 1px;
     border-style: none;
-    transition: 1s;
+    transition: 0.5s;
     text-decoration: none;
     color: black;
 } .nav:hover {
@@ -32,7 +32,7 @@ header {
 body {
     background-color: #cfa141;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-} #questionary {
+} form {
     margin: 6%;
     display: flex; 
     flex-wrap: wrap;
@@ -63,9 +63,10 @@ body {
     width: 20%; 
     padding: 5px;
     text-decoration: none;
-    transition: 1.5s;
+    transition: 0.5s;
 } #submit:hover {
     width: 85px;
+    height: 30px;
     background: #cfa141;
 } h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -75,15 +76,16 @@ body {
     float: right;
     width: 30%;
 } span {
+    
+} .footer {
     font-family: "SoDo Sans Semibold", Verdana, Tahoma, sans-serif;
     width: 30%;
     text-decoration: none;
     font-size: 24px;
-    margin: 0px 85px 60px 0px;
-} .footer {
     position: fixed;
-    bottom: 0px;
     right: 0px;
+    bottom: 0px;
+    margin: 0px 85px 60px 0px;
 }
 
 @media (max-width: 500px) {
